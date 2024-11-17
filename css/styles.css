@@ -8,8 +8,8 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light gray background for the whole page */
-    color: #333; /* Dark text for readability */
+    background-color: #fff5e1; /* Cream background for the whole page */
+    color: #2f4f4f; /* Slate Gray text for readability */
     line-height: 1.6;
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 
 /* Header Section */
 header {
-    background-color: #ff6f61; /* Soft coral background for header */
+    background-color: #6a1b9a; /* Rich Plum background for header */
     text-align: center;
     padding: 40px 20px;
     color: white;
@@ -38,7 +38,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-    background-color: #333; /* Dark background for the nav bar */
+    background-color: #f3e5f5; /* Soft Lilac background for the nav bar */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -55,21 +55,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #6a1b9a; /* Rich Plum color for the links */
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff6f61; /* Change link color on hover */
+    color: #f1c27d; /* Warm Gold on hover */
 }
 
 /* Hero Section */
 .hero {
-    background-color: #ffebcd; /* Light background for the hero section */
+    background-color: #6a1b9a; /* Rich Plum background */
     text-align: center;
     padding: 50px 20px;
+    color: white;
 }
 
 .hero h2 {
@@ -83,7 +84,7 @@ nav ul li a:hover {
 }
 
 .hero .cta-btn {
-    background-color: #ff6f61; /* Call-to-action button color */
+    background-color: #f1c27d; /* Warm Gold for the button */
     color: white;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -94,7 +95,7 @@ nav ul li a:hover {
 }
 
 .hero .cta-btn:hover {
-    background-color: #d15a4e; /* Darker shade for the button hover */
+    background-color: #6a1b9a; /* Darker Rich Plum on hover */
 }
 
 /* Main Content Section */
@@ -149,20 +150,20 @@ nav ul li a:hover {
 
 /* Footer Section */
 footer {
-    background-color: #333;
+    background-color: #6a1b9a; /* Rich Plum footer background */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: #ff6f61; /* Link color in footer */
+    color: #f1c27d; /* Warm Gold links in the footer */
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
-    color: white;
+    color: white; /* White hover effect for footer links */
 }
 
 /* Responsive Design (Optional) */
