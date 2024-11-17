@@ -1,200 +1,34 @@
-/* General Styles */
-body {
-    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1; /* Off-white background */
-    color: #333333; /* Dark charcoal text for readability */
-    line-height: 1.6; /* Increased line height for readability */
-}
-
-h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Container for all pages */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Header */
-header {
-    background-color: #004d40; /* Dark Teal */
-    color: #ff6f61; /* Light Coral */
-    text-align: center;
-    padding: 60px 20px; /* Increased padding */
-}
-
-header .logo-container img {
-    width: 120px;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 3.5em; /* Larger heading */
-    margin-bottom: 10px;
-    color: #ff6f61; /* Light Coral */
-    font-family: 'Merriweather', serif; /* Elegant serif font for heading */
-}
-
-header p {
-    font-size: 1.8em; /* Slightly bigger for better contrast */
-    color: white;
-    margin-bottom: 30px; /* More space below */
-}
-
-/* Navigation Bar */
-nav {
-    background-color: #333333; /* Dark Gray */
-    padding: 15px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 25px; /* Increased space between menu items */
-}
-
-nav ul li a {
-    color: #ff6f61; /* Light Coral */
-    text-decoration: none;
-    font-size: 1.3em; /* Slightly bigger font */
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif; /* Sans-serif font for navigation links */
-}
-
-nav ul li a:hover {
-    color: #ffffff; /* White on hover */
-}
-
-/* Hero Section */
-.hero {
-    background-color: #004d40; /* Dark Teal */
-    color: #ff6f61; /* Light Coral */
-    padding: 100px 20px; /* More padding */
-    text-align: center;
-    margin-top: 50px;
-}
-
-.hero h2 {
-    font-size: 3.2em; /* Bigger size */
-    margin-bottom: 20px;
-    line-height: 1.4; /* Better spacing */
-}
-
-.hero p {
-    font-size: 1.6em; /* Slightly bigger text */
-    color: #ffffff;
-    margin-bottom: 40px; /* More space before the button */
-    line-height: 1.6; /* Increased line height */
-}
-
-.hero .cta-btn {
-    padding: 18px 30px; /* Larger button */
-    background-color: #ff6f61; /* Light Coral */
-    color: #004d40; /* Dark Teal */
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.4em; /* Larger button text */
-    transition: background-color 0.3s ease;
-}
-
-.hero .cta-btn:hover {
-    background-color: #004d40; /* Dark Teal on hover */
-    color: #ffffff; /* White text on hover */
-}
-
-/* About Section */
-.about {
-    padding: 80px 20px; /* More padding */
-    text-align: center;
-    background-color: #ffffff; /* White background */
-    margin-top: 50px;
-}
-
-.about h2 {
-    font-size: 3.2em; /* Larger heading */
-    color: #004d40; /* Dark Teal */
-    margin-bottom: 30px;
-    font-family: 'Merriweather', serif; /* Serif font for headings */
-    line-height: 1.4;
-}
-
+/* General Paragraphs in the Facial Treatment Section, Hero, and About Section */
+#facial-treatments p, 
+.hero p, 
 .about p {
-    font-size: 1.5em; /* Larger body text */
-    color: #333333; /* Dark text */
-    line-height: 1.8; /* Increased line-height */
-    max-width: 900px;
-    margin: 0 auto;
-    padding-bottom: 30px; /* Added padding for extra space */
+    font-size: 1.6em; /* Increased font size for better readability */
+    line-height: 1.8; /* Increased line height for more space between lines */
+    margin-bottom: 20px; /* More space below each paragraph */
+    color: #333333; /* Dark charcoal color for text */
+    max-width: 900px; /* Limit the width of paragraphs for readability */
+    margin: 0 auto 20px auto; /* Center align text and space below */
+    padding: 10px; /* Add padding around the text */
 }
 
-/* Footer */
-footer {
-    background-color: #004d40; /* Dark Teal */
-    color: #ff6f61; /* Light Coral */
-    text-align: center;
-    padding: 40px 20px; /* More padding */
-    margin-top: 60px;
+/* Paragraph text in Hero Section */
+.hero p {
+    font-size: 1.8em; /* Larger font size for Hero section */
+    line-height: 1.7;
+    margin-bottom: 30px; /* More space between Hero paragraph and button */
 }
 
-footer a {
-    color: #ff6f61; /* Light Coral */
-    text-decoration: none;
+/* About Section Paragraph */
+.about p {
+    font-size: 1.5em; /* Slightly smaller for About section */
+    line-height: 1.8; /* Increased line-height for better spacing */
+    margin-bottom: 30px; /* More space below the paragraph */
+    padding: 10px; /* Padding for extra space around the text */
 }
 
-footer a:hover {
-    color: #ffffff; /* White on hover */
-    text-decoration: underline;
-}
-
-/* Additional Custom Styling */
-h1, h2, h3 {
-    font-family: 'Merriweather', serif; /* Elegant font for headings */
-}
-
-button, .cta-btn {
-    font-weight: bold;
-}
-
-/* Mobile-first */
-@media (max-width: 768px) {
-    .hero, .about {
-        padding: 60px 20px; /* Reduced padding for mobile */
-    }
-
-    header h1 {
-        font-size: 2.5em; /* Smaller heading for mobile */
-    }
-
-    .hero h2 {
-        font-size: 2.5em; /* Adjust font size */
-    }
-
-    .hero p {
-        font-size: 1.3em; /* Slightly smaller text */
-        line-height: 1.6;
-    }
-
-    .cta-btn {
-        font-size: 1.2em; /* Adjust button size */
-    }
-
-    .about p {
-        font-size: 1.3em; /* Adjust paragraph size */
-        max-width: 100%; /* Ensure text fits within mobile screen */
-    }
-
-    footer {
-        padding: 30px 20px; /* Reduced footer padding */
-    }
+/* Additional Paragraph Styling for Footer */
+footer p {
+    font-size: 1.4em; /* Adjusted font size for footer paragraphs */
+    line-height: 1.6; /* Set line height for footer text */
+    color: #f1f1f1; /* Light footer text */
 }
