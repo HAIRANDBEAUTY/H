@@ -88,12 +88,14 @@ nav ul li a:hover {
 .hero h2 {
     font-size: 3.2em; /* Bigger size */
     margin-bottom: 20px;
+    line-height: 1.4; /* Better spacing */
 }
 
 .hero p {
-    font-size: 1.4em; /* Slightly bigger text */
+    font-size: 1.6em; /* Slightly bigger text */
     color: #ffffff;
     margin-bottom: 40px; /* More space before the button */
+    line-height: 1.6; /* Increased line height */
 }
 
 .hero .cta-btn {
@@ -102,7 +104,7 @@ nav ul li a:hover {
     color: #004d40; /* Dark Teal */
     text-decoration: none;
     border-radius: 8px;
-    font-size: 1.3em;
+    font-size: 1.4em; /* Larger button text */
     transition: background-color 0.3s ease;
 }
 
@@ -120,18 +122,20 @@ nav ul li a:hover {
 }
 
 .about h2 {
-    font-size: 3em; /* Slightly larger heading */
+    font-size: 3.2em; /* Larger heading */
     color: #004d40; /* Dark Teal */
     margin-bottom: 30px;
     font-family: 'Merriweather', serif; /* Serif font for headings */
+    line-height: 1.4;
 }
 
 .about p {
-    font-size: 1.4em; /* Slightly larger body text */
+    font-size: 1.5em; /* Larger body text */
     color: #333333; /* Dark text */
-    line-height: 1.7; /* Increased line-height */
+    line-height: 1.8; /* Increased line-height */
     max-width: 900px;
     margin: 0 auto;
+    padding-bottom: 30px; /* Added padding for extra space */
 }
 
 /* Footer */
@@ -177,15 +181,16 @@ button, .cta-btn {
     }
 
     .hero p {
-        font-size: 1.2em; /* Slightly smaller text */
+        font-size: 1.3em; /* Slightly smaller text */
+        line-height: 1.6;
     }
 
     .cta-btn {
-        font-size: 1.1em; /* Adjust button size */
+        font-size: 1.2em; /* Adjust button size */
     }
 
     .about p {
-        font-size: 1.2em; /* Adjust paragraph size */
+        font-size: 1.3em; /* Adjust paragraph size */
         max-width: 100%; /* Ensure text fits within mobile screen */
     }
 
