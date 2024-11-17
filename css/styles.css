@@ -8,8 +8,8 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff5e1; /* Cream background for the whole page */
-    color: #2f4f4f; /* Slate Gray text for readability */
+    background-color: #f0f9f7; /* Soft Seafoam Green */
+    color: #2f4f4f; /* Slate Gray text */
     line-height: 1.6;
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 
 /* Header Section */
 header {
-    background-color: #6a1b9a; /* Rich Plum background for header */
+    background-color: #3e8e41; /* Deep Forest Green */
     text-align: center;
     padding: 40px 20px;
     color: white;
@@ -38,7 +38,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-    background-color: #f3e5f5; /* Soft Lilac background for the nav bar */
+    background-color: #aad8d3; /* Soft Aqua Blue */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -55,22 +55,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #6a1b9a; /* Rich Plum color for the links */
+    color: #3e8e41; /* Deep Forest Green */
     text-decoration: none;
     font-size: 1.1em;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #f1c27d; /* Warm Gold on hover */
+    color: #f4a261; /* Soft Coral on hover */
 }
 
 /* Hero Section */
 .hero {
-    background-color: #6a1b9a; /* Rich Plum background */
+    background-color: #a0d9d0; /* Soft Aqua Blue */
     text-align: center;
     padding: 50px 20px;
-    color: white;
+    color: #3e8e41; /* Deep Forest Green */
 }
 
 .hero h2 {
@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 .hero .cta-btn {
-    background-color: #f1c27d; /* Warm Gold for the button */
+    background-color: #f4a261; /* Soft Coral for CTA */
     color: white;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -95,13 +95,13 @@ nav ul li a:hover {
 }
 
 .hero .cta-btn:hover {
-    background-color: #6a1b9a; /* Darker Rich Plum on hover */
+    background-color: #3e8e41; /* Darker Forest Green */
 }
 
 /* Main Content Section */
 .content {
     padding: 40px 20px;
-    background-color: #fff; /* White background for the content area */
+    background-color: #fff; /* Clean white for content area */
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ nav ul li a:hover {
 
 /* About Section */
 .about {
-    background-color: #f4f4f4; /* Light gray background for about section */
+    background-color: #f4f9f5; /* Very Light Sage Green */
     text-align: center;
     padding: 40px 20px;
 }
@@ -150,14 +150,14 @@ nav ul li a:hover {
 
 /* Footer Section */
 footer {
-    background-color: #6a1b9a; /* Rich Plum footer background */
+    background-color: #3e8e41; /* Deep Forest Green */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: #f1c27d; /* Warm Gold links in the footer */
+    color: #f4a261; /* Soft Coral links */
     text-decoration: none;
     font-weight: bold;
 }
