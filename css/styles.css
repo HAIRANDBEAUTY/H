@@ -1,10 +1,10 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light Gray for a clean background */
-    color: #333; /* Dark text for readability */
+    background-color: #f1f1f1; /* Off-white background */
+    color: #333333; /* Dark charcoal text for readability */
     line-height: 1.6; /* Increased line height for readability */
 }
 
@@ -23,8 +23,8 @@ h1, h2, h3, p {
 
 /* Header */
 header {
-    background-color: #003366; /* Midnight Blue */
-    color: #f1c40f; /* Gold */
+    background-color: #004d40; /* Dark Teal */
+    color: #ff6f61; /* Light Coral */
     text-align: center;
     padding: 60px 20px; /* Increased padding */
 }
@@ -37,7 +37,8 @@ header .logo-container img {
 header h1 {
     font-size: 3.5em; /* Larger heading */
     margin-bottom: 10px;
-    color: #f1c40f; /* Gold */
+    color: #ff6f61; /* Light Coral */
+    font-family: 'Merriweather', serif; /* Elegant serif font for heading */
 }
 
 header p {
@@ -64,10 +65,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f1c40f; /* Gold */
+    color: #ff6f61; /* Light Coral */
     text-decoration: none;
     font-size: 1.3em; /* Slightly bigger font */
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif; /* Sans-serif font for navigation links */
 }
 
 nav ul li a:hover {
@@ -76,8 +78,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #003366; /* Midnight Blue */
-    color: #f1c40f; /* Gold */
+    background-color: #004d40; /* Dark Teal */
+    color: #ff6f61; /* Light Coral */
     padding: 100px 20px; /* More padding */
     text-align: center;
     margin-top: 50px;
@@ -96,8 +98,8 @@ nav ul li a:hover {
 
 .hero .cta-btn {
     padding: 18px 30px; /* Larger button */
-    background-color: #f1c40f; /* Gold */
-    color: #003366; /* Midnight Blue */
+    background-color: #ff6f61; /* Light Coral */
+    color: #004d40; /* Dark Teal */
     text-decoration: none;
     border-radius: 8px;
     font-size: 1.3em;
@@ -105,7 +107,8 @@ nav ul li a:hover {
 }
 
 .hero .cta-btn:hover {
-    background-color: #e0b400; /* Darker Gold on hover */
+    background-color: #004d40; /* Dark Teal on hover */
+    color: #ffffff; /* White text on hover */
 }
 
 /* About Section */
@@ -118,8 +121,9 @@ nav ul li a:hover {
 
 .about h2 {
     font-size: 3em; /* Slightly larger heading */
-    color: #003366; /* Midnight Blue */
+    color: #004d40; /* Dark Teal */
     margin-bottom: 30px;
+    font-family: 'Merriweather', serif; /* Serif font for headings */
 }
 
 .about p {
@@ -132,15 +136,15 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-    background-color: #003366; /* Midnight Blue */
-    color: #f1c40f; /* Gold */
+    background-color: #004d40; /* Dark Teal */
+    color: #ff6f61; /* Light Coral */
     text-align: center;
     padding: 40px 20px; /* More padding */
     margin-top: 60px;
 }
 
 footer a {
-    color: #f1c40f; /* Gold */
+    color: #ff6f61; /* Light Coral */
     text-decoration: none;
 }
 
@@ -151,7 +155,7 @@ footer a:hover {
 
 /* Additional Custom Styling */
 h1, h2, h3 {
-    font-family: 'Georgia', serif; /* Elegant font for headings */
+    font-family: 'Merriweather', serif; /* Elegant font for headings */
 }
 
 button, .cta-btn {
