@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4; /* Light Gray for a clean background */
     color: #333; /* Dark text for readability */
+    line-height: 1.6; /* Increased line height for readability */
 }
 
 h1, h2, h3, p {
@@ -12,12 +13,20 @@ h1, h2, h3, p {
     padding: 0;
 }
 
+/* Container for all pages */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Header */
 header {
     background-color: #003366; /* Midnight Blue */
     color: #f1c40f; /* Gold */
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px; /* Increased padding */
 }
 
 header .logo-container img {
@@ -26,15 +35,15 @@ header .logo-container img {
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 3.5em; /* Larger heading */
     margin-bottom: 10px;
     color: #f1c40f; /* Gold */
 }
 
 header p {
-    font-size: 1.5em;
+    font-size: 1.8em; /* Slightly bigger for better contrast */
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* More space below */
 }
 
 /* Navigation Bar */
@@ -50,14 +59,14 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 20px;
+    display: inline-block;
+    margin: 0 25px; /* Increased space between menu items */
 }
 
 nav ul li a {
     color: #f1c40f; /* Gold */
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em; /* Slightly bigger font */
     text-transform: uppercase;
 }
 
@@ -69,30 +78,29 @@ nav ul li a:hover {
 .hero {
     background-color: #003366; /* Midnight Blue */
     color: #f1c40f; /* Gold */
-    padding: 70px 20px;
+    padding: 100px 20px; /* More padding */
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .hero h2 {
-    font-size: 2.8em;
-    color: #f1c40f; /* Gold */
+    font-size: 3.2em; /* Bigger size */
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 1.3em;
-    color: #ffffff; /* White text for contrast */
-    margin-bottom: 30px;
+    font-size: 1.4em; /* Slightly bigger text */
+    color: #ffffff;
+    margin-bottom: 40px; /* More space before the button */
 }
 
 .hero .cta-btn {
-    padding: 15px 25px;
+    padding: 18px 30px; /* Larger button */
     background-color: #f1c40f; /* Gold */
     color: #003366; /* Midnight Blue */
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
+    border-radius: 8px;
+    font-size: 1.3em;
     transition: background-color 0.3s ease;
 }
 
@@ -102,22 +110,22 @@ nav ul li a:hover {
 
 /* About Section */
 .about {
-    padding: 60px 20px;
+    padding: 80px 20px; /* More padding */
     text-align: center;
     background-color: #ffffff; /* White background */
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .about h2 {
-    font-size: 2.8em;
+    font-size: 3em; /* Slightly larger heading */
     color: #003366; /* Midnight Blue */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about p {
-    font-size: 1.3em;
-    color: #333333; /* Dark text for readability */
-    line-height: 1.6;
+    font-size: 1.4em; /* Slightly larger body text */
+    color: #333333; /* Dark text */
+    line-height: 1.7; /* Increased line-height */
     max-width: 900px;
     margin: 0 auto;
 }
@@ -127,8 +135,8 @@ footer {
     background-color: #003366; /* Midnight Blue */
     color: #f1c40f; /* Gold */
     text-align: center;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 40px 20px; /* More padding */
+    margin-top: 60px;
 }
 
 footer a {
@@ -150,3 +158,34 @@ button, .cta-btn {
     font-weight: bold;
 }
 
+/* Mobile-first */
+@media (max-width: 768px) {
+    .hero, .about {
+        padding: 60px 20px; /* Reduced padding for mobile */
+    }
+
+    header h1 {
+        font-size: 2.5em; /* Smaller heading for mobile */
+    }
+
+    .hero h2 {
+        font-size: 2.5em; /* Adjust font size */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Slightly smaller text */
+    }
+
+    .cta-btn {
+        font-size: 1.1em; /* Adjust button size */
+    }
+
+    .about p {
+        font-size: 1.2em; /* Adjust paragraph size */
+        max-width: 100%; /* Ensure text fits within mobile screen */
+    }
+
+    footer {
+        padding: 30px 20px; /* Reduced footer padding */
+    }
+}
