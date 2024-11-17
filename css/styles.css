@@ -1,34 +1,193 @@
-/* General Paragraphs in the Facial Treatment Section, Hero, and About Section */
-#facial-treatments p, 
-.hero p, 
-.about p {
-    font-size: 1.6em; /* Increased font size for better readability */
-    line-height: 1.8; /* Increased line height for more space between lines */
-    margin-bottom: 20px; /* More space below each paragraph */
-    color: #333333; /* Dark charcoal color for text */
-    max-width: 900px; /* Limit the width of paragraphs for readability */
-    margin: 0 auto 20px auto; /* Center align text and space below */
-    padding: 10px; /* Add padding around the text */
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Paragraph text in Hero Section */
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background for the whole page */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #ff6f61; /* Soft coral background for header */
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+header .logo-container {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark background for the nav bar */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61; /* Change link color on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffebcd; /* Light background for the hero section */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
 .hero p {
-    font-size: 1.8em; /* Larger font size for Hero section */
-    line-height: 1.7;
-    margin-bottom: 30px; /* More space between Hero paragraph and button */
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
-/* About Section Paragraph */
+.hero .cta-btn {
+    background-color: #ff6f61; /* Call-to-action button color */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-btn:hover {
+    background-color: #d15a4e; /* Darker shade for the button hover */
+}
+
+/* Main Content Section */
+.content {
+    padding: 40px 20px;
+    background-color: #fff; /* White background for the content area */
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* About Section */
+.about {
+    background-color: #f4f4f4; /* Light gray background for about section */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
 .about p {
-    font-size: 1.5em; /* Slightly smaller for About section */
-    line-height: 1.8; /* Increased line-height for better spacing */
-    margin-bottom: 30px; /* More space below the paragraph */
-    padding: 10px; /* Padding for extra space around the text */
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Additional Paragraph Styling for Footer */
-footer p {
-    font-size: 1.4em; /* Adjusted font size for footer paragraphs */
-    line-height: 1.6; /* Set line height for footer text */
-    color: #f1f1f1; /* Light footer text */
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ff6f61; /* Link color in footer */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1.1em;
+    }
+
+    .cta-btn {
+        padding: 10px 20px;
+    }
 }
